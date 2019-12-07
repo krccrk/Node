@@ -7,5 +7,5 @@ app.get("/GetData",(req,resp,next)=>
 {
     resp.send("Hello");
 })
-app.listen(4000);
+app.listen(80);
 
